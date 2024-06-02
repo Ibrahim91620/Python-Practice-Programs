@@ -8,5 +8,9 @@
 # for k in range(1,20001):
 #     print(k)
 
-for k in range(0,13,2):
-       print(k)
+# for k in range(0,13,2):
+#        print(k)
+
+
+for k in range(1,10,2):
+               print(k)
