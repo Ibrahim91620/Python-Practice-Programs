@@ -11,7 +11,11 @@
 # print(marks[len(marks)-5])
 # print(marks[-1])
 
-if "Ib" in "Ibrahim":
-    print("Yes")
-else:
-    print("No")
+# if "Ib" in "Ibrahim":
+#     print("Yes")
+# else:
+#     print("No")
+
+marks=[1,2,3,4,5,6,7,8]
+
+print(marks[0:4:2])
