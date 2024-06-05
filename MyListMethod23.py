@@ -11,7 +11,7 @@ l=[2,3,4,5,5]
 
 m=[2000,1000,11000]
 
-# l.extend(m)
+# l.b extend(m)
 # print(l)
 k=l+m
 print(k)
