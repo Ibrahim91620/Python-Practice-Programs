@@ -23,3 +23,7 @@ print(txt)
 # if we want to print {} in python
 
 print(f"hello my name is  {{name}} and i am from {{countrty}}")
+age=90.89
+text=f"hello ! My name is md Ibrahim{age:.1f}"
+print(text.format(age=17.33))
+
