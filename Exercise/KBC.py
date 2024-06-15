@@ -19,9 +19,10 @@ money=0
 
 for i in range(0,len(questions)):
     options=Options[i]
-    print(f"Questions for Rs {levels[i]}")
+    print(f"\n\nQuestions for Rs {levels[i]}")
     print(f"{i}.{questions[i]}")
-    print(f"{i}. {options[i]}")
+    print(f"a. {options[0]} b. {options[1]} ")
+    print(f"c. {options[2]} d. {options[3]} ")
     reply=int(input("Enter your answer between 1-4 option"))
     if(reply==options[4]):
         print(f"Correct Answer , You have won {levels[i]}")
@@ -35,6 +36,8 @@ for i in range(0,len(questions)):
         print("Incorrect Answer!!")
         break
 
+
+print(f"You can go with money of {money}")
 
 
 # lots of improvement can be done
